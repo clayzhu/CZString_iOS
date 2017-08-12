@@ -7,3 +7,5 @@
 
 另外，纯数字的字符串在传递过程中会被 Objective-C 自动转换为 NSNumber 类型，此时如果使用 `isEqualToString:` 或赋值给 `label.text` 等一些字符串操作，程序会 crash。
 
+CZString_iOS 将上述这些情况下所使用的方法封装，还封装了根据中英文字节数的不同切割将字符串切割到最大长度、去除字符串中的特殊字符等方法。
+
