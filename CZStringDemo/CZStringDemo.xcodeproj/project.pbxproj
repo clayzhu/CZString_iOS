@@ -13,6 +13,7 @@
 		6FB5ED991F3EEF2900EF37E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5ED971F3EEF2900EF37E8 /* Main.storyboard */; };
 		6FB5ED9B1F3EEF2900EF37E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5ED9A1F3EEF2900EF37E8 /* Assets.xcassets */; };
 		6FB5ED9E1F3EEF2900EF37E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB5ED9C1F3EEF2900EF37E8 /* LaunchScreen.storyboard */; };
+		6FB5EDA81F3EEF8400EF37E8 /* CZString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5EDA71F3EEF8400EF37E8 /* CZString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6FB5ED9A1F3EEF2900EF37E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FB5ED9D1F3EEF2900EF37E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FB5ED9F1F3EEF2900EF37E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB5EDA61F3EEF8400EF37E8 /* CZString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZString.h; sourceTree = "<group>"; };
+		6FB5EDA71F3EEF8400EF37E8 /* CZString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6FB5ED8D1F3EEF2900EF37E8 /* CZStringDemo */,
+				6FB5EDA51F3EEF8400EF37E8 /* CZString */,
 				6FB5ED8C1F3EEF2900EF37E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,15 @@
 				6FB5ED8F1F3EEF2900EF37E8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FB5EDA51F3EEF8400EF37E8 /* CZString */ = {
+			isa = PBXGroup;
+			children = (
+				6FB5EDA61F3EEF8400EF37E8 /* CZString.h */,
+				6FB5EDA71F3EEF8400EF37E8 /* CZString.m */,
+			);
+			path = CZString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB5ED961F3EEF2900EF37E8 /* ViewController.m in Sources */,
+				6FB5EDA81F3EEF8400EF37E8 /* CZString.m in Sources */,
 				6FB5ED931F3EEF2900EF37E8 /* AppDelegate.m in Sources */,
 				6FB5ED901F3EEF2900EF37E8 /* main.m in Sources */,
 			);
