@@ -31,7 +31,7 @@
 	} else {
 		NSString *str = (NSString *)object;
 		NSString *checkStr = [NSString stringWithFormat:@"%@", str];
-		return [checkStr isEqualToString:@"(null)"] || [checkStr isEqualToString:@""] || checkStr.length == 0 ? YES : NO;
+		return [checkStr containsString:@"null"] || [checkStr isEqualToString:@""] || checkStr.length == 0 ? YES : NO;
 	}
 }
 
